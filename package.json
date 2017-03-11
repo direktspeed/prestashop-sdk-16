@@ -1,0 +1,18 @@
+{
+  "name": "prestashop-sdk-16",
+  "version": "0.2.2",
+  "description": "use the Prestashop Admin Api via NODE.JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel presta.js --out-file presta.cjs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "qs": "^4.0.0",
+    "request-promise": "^0.4.2",
+    "xml2js": "^0.4.9"
+  },
+  "author": "Frank Lemanschik <frank@dspeed.eu>",
+  "license": "APACHE-2"
+}
