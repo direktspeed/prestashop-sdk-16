@@ -1,5 +1,6 @@
 # prestashop-sdk-16
 Prestashop v1.6 Admin API for NodeJS for use in prestashop-sdk
+http://doc.prestashop.com/display/PS14/Web-service+reference
 
 # Example Presta
 
