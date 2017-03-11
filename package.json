@@ -14,5 +14,5 @@
     "xml2js": "^0.4.9"
   },
   "author": "Frank Lemanschik <frank@dspeed.eu>",
-  "license": "APACHE-2"
+  "license": "Apache-2.0"
 }
