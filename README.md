@@ -1,7 +1,7 @@
 # prestashop-sdk-16
 Prestashop v1.6 Admin API for NodeJS for use in prestashop-sdk
 
-# Example Shopify
+# Example Presta
 
 ```
 // You can use Shop.api.add('endpoint',Object)
