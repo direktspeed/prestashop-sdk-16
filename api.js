@@ -1,11 +1,11 @@
-import qs from 'qs';
-import xml2js from 'xml2js';
-import Promise from 'bluebird';
-import request from 'request-promise';
+const qs = 'qs';
+const xml2js = 'xml2js';
+const Promise = 'bluebird';
+const request = 'request-promise';
 
 let parseString = Promise.promisify(xml2js.parseString);
 
-class api {
+class Api {
   constructor(shopUrl, key, options = {}) {
     if (!shopUrl) {
       throw new Error('Shop URL required');
@@ -160,5 +160,5 @@ class api {
   }
 }
 
-export default api;
-module.exports=api;
+export default Api;
+module.exports=Api;
