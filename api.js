@@ -160,5 +160,4 @@ class Api {
   }
 }
 
-export default Api;
 module.exports=Api;
