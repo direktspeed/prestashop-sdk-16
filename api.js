@@ -1,9 +1,9 @@
 const qs = 'qs';
 const xml2js = 'xml2js';
-const Promise = 'bluebird';
+const bluebird = 'bluebird';
 const request = 'request-promise';
 
-let parseString = Promise.promisify(xml2js.parseString);
+let parseString = bluebird.promisify(xml2js.parseString);
 
 class Api {
   constructor(shopUrl, key, options = {}) {
