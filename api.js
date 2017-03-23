@@ -1,7 +1,7 @@
-const qs = 'qs';
-const xml2js = 'xml2js';
-const bluebird = 'bluebird';
-const request = 'request-promise';
+const qs = require('qs');
+const xml2js = require('xml2js');
+const bluebird = require('bluebird');
+const request = require('request-promise');
 
 let parseString = bluebird.promisify(xml2js.parseString);
 
