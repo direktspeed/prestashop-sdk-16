@@ -2,7 +2,7 @@
 var Presta = require(__dirname+'/api');
 
 function init(connection) {
-  console.log(connection);
+  require('debug')('prestashop-sdk-16::connection')(connection);
   return new Presta(connection.storeUrl, connection.apiKey, connection.options);
 }
 
