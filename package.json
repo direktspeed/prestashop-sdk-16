@@ -10,7 +10,7 @@
   "dependencies": {
     "debug": "*",
     "bluebird": "^3.0.0",
-    "qs": "^4.0.0",
+    "qs": "^5.0.0",
     "request-promise": "^0.4.2",
     "xml2js": "^0.4.9"
   },
