@@ -11,7 +11,7 @@
     "debug": "*",
     "bluebird": "^3.0.0",
     "qs": "^6.0.0",
-    "request-promise": "^0.4.2",
+    "request-promise": "^2.0.0",
     "xml2js": "^0.4.9"
   },
   "author": "Frank Lemanschik <frank@dspeed.eu>",
